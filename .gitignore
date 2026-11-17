@@ -1,0 +1,60 @@
+# Unity-generated data (including local test projects)
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/MemoryCaptures/
+**/Recordings/
+**/ProfilerCaptures/
+
+# IDE-generated files
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.opendb
+*.VC.db
+*.csproj.meta
+*.pidb.meta
+*.pdb.meta
+
+# Local Python runtimes, caches, training results, and executable builds
+/Tools/bootstrap/
+/Tools/python/
+/Tools/ml-venv/
+/Tools/uv-cache/
+/Tools/Phase5/Lab/
+/Tools/Phase5/Training/
+/Tools/Phase5/Combat/Evaluation/
+/Tools/Phase6Demo/Evaluation/
+/Tools/Phase6Demo/Training/
+/Tools/Phase6Demo/TrainingV2/
+**/results/
+**/__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+*.egg-info/
+
+# Local credentials and OS files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Keep the vendored dependency's Git metadata local
+**/.git/

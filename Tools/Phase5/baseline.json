@@ -1,0 +1,21 @@
+{
+  "sourceTag": "release_23_tag",
+  "sourceRevision": "a2777719560e4676be99e2ea128c5eb1fbeb3dbb",
+  "unityEditor": "6000.6.0f1",
+  "unityEditorRevision": "f7f8ed4d1e24",
+  "mlagentsUnity": "4.0.0",
+  "mlagentsPython": "1.2.0.dev0",
+  "python": "3.10.12",
+  "torch": "2.1.1+cpu",
+  "inferenceRequestedByTag": "2.2.1",
+  "inferenceEditorMinimum": "2.6.1",
+  "inferenceSelected": "2.6.1",
+  "setuptools": "80.9.0",
+  "seed": 23,
+  "fixedDeltaTime": 0.02,
+  "spikeGate": "PASS - Logs/Phase5BuildTraining2.log, Phase5Training.log, Phase5Inference6.log",
+  "environmentFreeze": "environment.freeze.txt",
+  "compatibilityPatch": "unity6000.6.patch",
+  "motionGate": "PASS within fixed/capture 0.02 and timeScale 1; Logs/Phase5Motion.txt",
+  "agentGate": "PASS automated: 135 focused checks and 300 live scheduler ticks / all five combat choices; human visual validation pending"
+}

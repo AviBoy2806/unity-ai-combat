@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5201b585abe84744ab5608d12021cc90, type: 3}
+  m_Name: Light1
+  m_EditorClassIdentifier: Assembly-CSharp::GameCombat.AttackDefinition
+  windup: 0.2
+  active: 0.16
+  recovery: 0.34
+  damage: 10
+  hitPosture: 10
+  blockPosture: 20
+  reach: 2
+  useClipFrames: 1
+  timingClip: {fileID: 7400000, guid: 24566441065f29845a0520755b7f7b3b, type: 2}
+  sourceFrameRate: 30
+  authoredStateSpeed: 1
+  hitStartFrame: 18
+  hitEndFrame: 26
+  actionEndFrame: 29
+  limitParryFrames: 0
+  parryStartFrame: 0
+  parryEndFrame: 999
+  useSideSweep: 0
+  sideOffset: 0
+  leapImpulse: 0
+  heavy: 0
+  animationState: Attack 1
+  clipDuration: 1
+  halfExtents: {x: 0.65, y: 0.8, z: 0.25}
+  lateralTrajectory:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: -0.35
+      inSlope: 0
+      outSlope: 0.7
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0.35
+      inSlope: 0.7
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  forwardSpeed:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  nextCombo: {fileID: 11400000, guid: 69260b4cdc8b05b459fc0a66a819e46f, type: 2}
+  matchAnimationToAction: 0

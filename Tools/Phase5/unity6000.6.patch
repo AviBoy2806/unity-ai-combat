@@ -1,0 +1,21 @@
+diff --git a/com.unity.ml-agents/Runtime/Integrations/Match3/Match3ActuatorComponent.cs b/com.unity.ml-agents/Runtime/Integrations/Match3/Match3ActuatorComponent.cs
+index 8dfa7e4..9bf0b22 100644
+--- a/com.unity.ml-agents/Runtime/Integrations/Match3/Match3ActuatorComponent.cs
++++ b/com.unity.ml-agents/Runtime/Integrations/Match3/Match3ActuatorComponent.cs
+@@ -58,7 +58,11 @@ namespace Unity.MLAgents.Integrations.Match3
+                 return Array.Empty<IActuator>();
+             }
+ 
++            #if UNITY_6000_6_OR_NEWER
++            var seed = m_RandomSeed == -1 ? gameObject.GetEntityId().GetHashCode() : m_RandomSeed + 1;
++#else
+             var seed = m_RandomSeed == -1 ? gameObject.GetInstanceID() : m_RandomSeed + 1;
++#endif
+             return new IActuator[] { new Match3Actuator(board, m_ForceHeuristic, seed, m_ActuatorName) };
+         }
+ 
+@@ -79,3 +83,4 @@ namespace Unity.MLAgents.Integrations.Match3
+         }
+     }
+ }
++

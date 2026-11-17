@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5201b585abe84744ab5608d12021cc90, type: 3}
+  m_Name: RunningHeavy
+  m_EditorClassIdentifier: Assembly-CSharp::GameCombat.AttackDefinition
+  windup: 0.7
+  active: 0.24
+  recovery: 0.86
+  damage: 30
+  hitPosture: 25
+  blockPosture: 40
+  reach: 2.2
+  leapImpulse: 5
+  heavy: 1
+  animationState: Heavy Attack
+  matchAnimationToAction: 0
+  clipDuration: 2.316667
+  halfExtents: {x: 0.65, y: 0.8, z: 0.25}
+  lateralTrajectory:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: -0.35
+      inSlope: 0
+      outSlope: 0.7
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0.35
+      inSlope: 0.7
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  forwardSpeed:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 5
+      inSlope: 0
+      outSlope: -5
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -5
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  nextCombo: {fileID: 0}
+  useClipFrames: 1
+  timingClip: {fileID: 7400000, guid: 859211231fa81bf40b94178339ee01e7, type: 2}
+  sourceFrameRate: 60
+  authoredStateSpeed: 1
+  hitStartFrame: 42
+  hitEndFrame: 56
+  actionEndFrame: 108
+  useSideSweep: 0
+  sideOffset: 0

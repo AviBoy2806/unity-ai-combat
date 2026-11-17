@@ -1,0 +1,226 @@
+[
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\AgentContract\\AgentContract.cs",
+    "Hash": "002519E1AD6A734C6E29F75D5FCECB4A45A02E67B0766093A55CD7AD3FF4A49B"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\AgentContract\\ContractHeuristicPolicy.cs",
+    "Hash": "B5FFCA802170C0DD62841B1E78406FB607087534C848E9685E0CD47DF1DFBC7D"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\MLAdapter\\EnemyLearningAgent.cs",
+    "Hash": "48CA0481E1F201DF1AAC8B85B2FFAE0702CD6EFE16DFEA3F3A13FAD6CC9118F9"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Classes\\HealthComponent.cs",
+    "Hash": "2A9FC3215B58D5D56005827F067ED9856F16D9524E6DC36EE8C38188D89C10CA"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Classes\\HitDetection.cs",
+    "Hash": "660841543F78D8DB63323052DBA46A2AC1ED7093ACDAC02731F74ADC4BEF1B7F"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Classes\\RootMotionHandler.cs",
+    "Hash": "9DFCBBBB15803CE9AACDAA5A169DDB16C7EB1D05895095DBD8ABD2C2707ADE0D"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Classes\\StateRootMotion.cs",
+    "Hash": "C135DE3F64994A68021A4E253487081E31B2E8502890306ABE6EE78A89086004"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Classes\\Sword.cs",
+    "Hash": "51A45E68D62D933F868F5689A36374BF86FEEFB98FE0518D67AEC91A47CD5A18"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Combat\\AttackDefinition.cs",
+    "Hash": "84AD78E974E2A6E94DC41D146CDF9D841ED8885B6A86C633E3FA1B1F48ABCD20"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Combat\\AttackFacingPolicy.cs",
+    "Hash": "EADF5E1051F17ABB2435E4ED422865494211F89A1A3843C1D60C1861F59A9324"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Combat\\AttackRootMotionBuffer.cs",
+    "Hash": "681A4D0920D615F8FBD4C3DAF22B25B33D533BE6ED5FECA0638F75C0BB3D99A1"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Combat\\CombatActionRunner.cs",
+    "Hash": "24AE6AB57315F968853D837E7B2C4531B9CCA10E12CDBAC53223FE420D595EE6"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Combat\\Combatant.cs",
+    "Hash": "08BA446F6498528422CB0E2C7346D9214CA4FCB275C4FF1A2A3560B9F894FF69"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Combat\\CombatDebugControls.cs",
+    "Hash": "50F1056F92F909403800110780C389F2C0D89F2298A56C516FEAED1116925DC9"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Combat\\CombatPresentation.cs",
+    "Hash": "A39A7C02F23414F2404556DA85FC364CA618FBDA831E55A6312341EE42A4DE0B"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Combat\\CombatResolver.cs",
+    "Hash": "41BF6653983C8260327E53C4AA9868BB1BC51476EEC441FD036066027E08C0D6"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Combat\\CombatTuning.cs",
+    "Hash": "9CC5B367F955D7DE6C9C19D7706E4CF3C5A49CD3186859F9614FA5B2343DE6FD"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Combat\\CombatTypes.cs",
+    "Hash": "F0626B4A5B22620F9515EE9E77609C920534CA2FD0E6202D489A395CDF24048B"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Combat\\CombatWorld.cs",
+    "Hash": "349AB441FBA4B998A2BBDEEDD985C86E883ADFBF726B440998A5B1D08E3F7033"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Combat\\Hurtbox.cs",
+    "Hash": "69C268034AD012F78D0AD4942A225ECDCEB2B89C43BC62B05BC329BECC4AD216"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Combat\\PlayerCombatAdapter.cs",
+    "Hash": "B1758E679C331DAFE81CFA2497685F63264B2378B9AAA2B579C80D755EC4922D"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Combat\\PlayerComboAnimation.cs",
+    "Hash": "83E930F48575D0AA1235B87FB9ADBA2FFEB5FA180E075BBBA20BE55AEEC74310"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Combat\\TrainingMotionEvaluation.cs",
+    "Hash": "481A74A64EE2DB1A91A918D54FA19DF2A1FAB6739197032C70233CD3F6562109"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Enemy\\Combat\\EnemyBrainHost.Agent.cs",
+    "Hash": "1C10187B1B45214267F7ADC1DDFE857D68E9FEF030025B37A6EA5162508451D6"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Enemy\\Combat\\EnemyBrainHost.cs",
+    "Hash": "358BB43E0ED263CA651552CA3D966B6C94DFCCB1FFBAFCD310B62E5320389246"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Enemy\\Combat\\EnemyCombatBrain.cs",
+    "Hash": "238BFAAC85335DFBC8088C1E60A4AC6995502FE661FB319A71E12A247390A812"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Enemy\\Combat\\EnemyCombatState.cs",
+    "Hash": "8FD3991D8109733779E1619DDBAC8609BC8962594F8CB2DA958CEC0281FDB91F"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Enemy\\Combat\\EnemyMotor.cs",
+    "Hash": "885E79DE3D0BEA86868B5D05367B838F7E02750E223D15834B96F30565E60B61"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Enemy\\Combat\\EnemyObservationStream.cs",
+    "Hash": "A762C85285FBA5C157AC6FE6FDE15A01DF7BA13557385CA2F9360F5B60DBA00A"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Enemy\\enemy.cs",
+    "Hash": "648AEB963A8354974B59D33CD44EC3A8E08E5A90649BD47E69CF99F06DEEA1C7"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Enemy\\enemyPerceptionNav.cs",
+    "Hash": "CF2562A2A339868D5A3D209D95250E123B3A3BCEC19E780896EFA2C393D213FB"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Enemy\\PlayerRefManager.cs",
+    "Hash": "B4D553E89092EF256E074488840BF7C73B7643F9826AD39CEB019D3C311B973C"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Enemy\\State Machine\\State.cs",
+    "Hash": "950933D2CBC218EE628B7E7C63CED517DA88285EFBD74FAFEE912562E1687A58"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Enemy\\State Machine\\StateMachine.cs",
+    "Hash": "357D00FB32B4AEE74DC51DA5563AD3D09713A05DDA89248FE315CC02ABC8D14A"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Enemy\\State Machine\\States\\ChaseState.cs",
+    "Hash": "FEAA0021CC19A141DCB954CC1887646B895582E7E46DFA6E95413AF8B847DCBB"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Enemy\\State Machine\\States\\DeadState.cs",
+    "Hash": "E0BD2A339A9EB59BF4DC6F1FB1B1A1A6C99EC68A9C5CCB56A1AF2E3BFDD0CB59"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Enemy\\State Machine\\States\\EnemyStunnedState.cs",
+    "Hash": "E0B1505532E4F2454D1C7515E30AE8CBF2193B9A0E820A2A7D6D5BD778E7CE11"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Enemy\\State Machine\\States\\IdleState.cs",
+    "Hash": "255EC3A4EEA39D6ED60F343B53CFAE635BB496607DC75D1C4099897EB44D5365"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Enemy\\State Machine\\States\\WanderState.cs",
+    "Hash": "2349D41D45F84DE5AB450C9AC31AD327B70F9E195B427983061A353D745A7B37"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Enemy\\stay.cs",
+    "Hash": "64288FC852F2E0F4A532F6227150A993D073D1E669620F194DCAB96DBDCBD88F"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Player\\CameraLook.cs",
+    "Hash": "C0ED81328416E0F2439BE58A204FBD7211DC720F800784DDBBDF5CDDB0238F09"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Player\\LockOn.cs",
+    "Hash": "E7A8CB92FC745D45C0FF6556F6C2C7DAD8C9AFA8BB1E401D617215F8794180EA"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Player\\Player.cs",
+    "Hash": "3EB7E2FF127D4B8409A32B09B491E63084EC2E1ACA157B9399A6AB535126B4AD"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Player\\PlayerInputComponent.cs",
+    "Hash": "EB4465073867E0DCDCC2DDA227B60673534D0F6E9D71DD14BEC4B7DD24572146"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Player\\State Machine\\State.cs",
+    "Hash": "37BC66C9F70DC7852801DDB646BD7D8B7E4746517F2FF123D4E2E070227F7DEE"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Player\\State Machine\\StateMachine.cs",
+    "Hash": "0A59042C98A96B6CB787883ADFA80F11236B029E662EBC845D4C239B3633420E"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Player\\State Machine\\States\\AttackState.cs",
+    "Hash": "E9FCCB4EBF191C5CC4F0901F471692F646F926419301017EF38BBCE1E2CCDD0E"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Player\\State Machine\\States\\DeadState.cs",
+    "Hash": "2DE18CAA9BAA7E9E15A23423924B75AFEF444240D565A14EF147BE6E14E34484"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Player\\State Machine\\States\\DodgeState.cs",
+    "Hash": "60037A8E344020ADF9F46C9E031DB13168EAFE81234A126F03F5CDB985290856"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Player\\State Machine\\States\\FallState.cs",
+    "Hash": "4B30FE7CB83B17AF35B76E3E0376E26A8852E5A9CC29527F945A1641C70EACF1"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Player\\State Machine\\States\\GuardState.cs",
+    "Hash": "6F596DD95F9A1FD2E554A20BD16CA1235C4D6E376CA59D13583E6ED8EFD64B41"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Player\\State Machine\\States\\HeavyAttack.cs",
+    "Hash": "E94B35FC04B7A4416B3D7DB15807176FCC030FD9203D37E8843E53CF26F32105"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Player\\State Machine\\States\\IdleState.cs",
+    "Hash": "B1F2CC2F3953260AB86B01A2C7E77872C30CC099B40DDD9337E24B22BA4630B3"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Player\\State Machine\\States\\JumpState.cs",
+    "Hash": "C0128834F41DF4D72D360BDD5A22650D3FC27CD895D377A0B5EA4E81F8CDB246"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Player\\State Machine\\States\\RunState.cs",
+    "Hash": "B90B47780217E7E1EAB321644B2A4DE5FB7B29DE7AD8F9D35BCE0902E28470D5"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\Scripts\\Player\\State Machine\\States\\WalkState.cs",
+    "Hash": "6E2146532189C8ACBEBCC232D57A91C3A141E4E9398776BEFE7B5221953076ED"
+  }
+]

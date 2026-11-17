@@ -1,0 +1,26 @@
+[
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Tools\\Phase5\\environment.freeze.txt",
+    "Hash": "4B37A4C89D6C558CFB24889C0A1806D2D4CC2676AB72B53F6C28AC88A8A7E094"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Tools\\Phase5\\unity6000.6.patch",
+    "Hash": "AB0574EC5180065EC7B8933A25BB2AFB849DE12156FF610FD01604EA1A783B06"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Packages\\manifest.json",
+    "Hash": "DAF60C4522CCD19950B4947C7507C2AE2A92E26CF3671BD6546B9B5211F7A153"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Packages\\packages-lock.json",
+    "Hash": "73F8AB2F061D454004FA42BCA9A673E1A910CAC99213E8492578E18A31EB5E19"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\AgentContract\\AgentContract.cs",
+    "Hash": "002519E1AD6A734C6E29F75D5FCECB4A45A02E67B0766093A55CD7AD3FF4A49B"
+  },
+  {
+    "Path": "D:\\Unity Projs\\AI CP\\My project (2)\\Assets\\CompatibilitySpike\\ExportedBasic.onnx",
+    "Hash": "DB8826735AECDAAFF159C88CCEE55E51AB8C7A8DEDE3A73BA74A2B2A016049C3"
+  }
+]
