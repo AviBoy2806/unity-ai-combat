@@ -11,7 +11,7 @@ public class EnemyStateMachine {
  var actor=context.GetComponent<Combatant>();if(!actor || !actor.Health)return;
  if(actor.Dead){ForceChangeState(EnemyState.EnemyStateType.dead);return;}
  if(actor.Runner.Broken){ForceChangeState(EnemyState.EnemyStateType.stunned);return;}
- if(currentState is EnemyStunnedState){var nav=context.GetComponent<EnemyPerceptionNav>();ForceChangeState(nav && nav.CanSeePlayer() && nav.PlayerDistance<=7?EnemyState.EnemyStateType.combat:nav && nav.HasPlayer && !float.IsNegativeInfinity(nav.LastSeenTime)?EnemyState.EnemyStateType.chase:EnemyState.EnemyStateType.idle);}
+ if(currentState is EnemyStunnedState){var nav=context.GetComponent<EnemyPerceptionNav>();ForceChangeState(nav && nav.CanSeePlayer() && nav.CanEngagePlayer() && nav.PlayerDistance<=7?EnemyState.EnemyStateType.combat:nav && nav.HasPlayer && !float.IsNegativeInfinity(nav.LastSeenTime)?EnemyState.EnemyStateType.chase:EnemyState.EnemyStateType.idle);}
  }
  public void Update(){SyncCombatState();currentState?.Update();}
  public void FixedUpdate(){SyncCombatState();currentState?.FixedUpdate();}

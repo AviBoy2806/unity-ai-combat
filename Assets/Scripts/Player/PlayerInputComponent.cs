@@ -25,6 +25,8 @@ public class PlayerInputComponent : MonoBehaviour
 
     [HideInInspector]
     public PlayerInput input = new PlayerInput();
+    public bool HudInputActive { get; private set; }
+    public void SetHudInput(bool active){if(HudInputActive==active)return;HudInputActive=active;ResetEpisodeState();}
     public void ResetEpisodeState(){ClearCombat();guardEdges.Clear();guardHeld=false;input=new PlayerInput();}
 
     readonly Queue<(CombatRequest request,bool selectAttack)> combatRequests=new();
@@ -35,7 +37,7 @@ public class PlayerInputComponent : MonoBehaviour
     void OnDisable(){ResetEpisodeState();}
 
     public bool ConsumeGuard(){if(guardEdges.Count>0)guardHeld=guardEdges.Dequeue();return guardHeld;}
-    public void OnBlock(InputValue value){SetBlock(value.isPressed);}
+    public void OnBlock(InputValue value){if(!HudInputActive)SetBlock(value.isPressed);}
     public void SetBlock(bool value){if(guardEdges.Count<16)guardEdges.Enqueue(value);}
     // Discard held movement/look as well as combat edges when focus is lost.
     // A release event may arrive while the Game view is not receiving input.
@@ -49,16 +51,19 @@ public class PlayerInputComponent : MonoBehaviour
 
     public void OnMove(InputValue value)
     {
+        if(HudInputActive)return;
         input.movement = value.Get<Vector2>();
     }
 
     public void OnLook(InputValue value)
     {
+        if(HudInputActive)return;
         input.look = value.Get<Vector2>();
     }
 
     public void OnAttack(InputValue value)
     {
+        if(HudInputActive)return;
         input.attackPressed = value.isPressed;
 
         if (value.isPressed)
@@ -70,6 +75,7 @@ public class PlayerInputComponent : MonoBehaviour
 
     public void OnRun(InputValue value)
     {
+        if(HudInputActive)return;
         input.runPressed = value.isPressed;
 
         if (value.isPressed)
@@ -81,11 +87,13 @@ public class PlayerInputComponent : MonoBehaviour
 
     public void OnJump(InputValue value)
     {
+        if(HudInputActive)return;
         input.jumpTriggered = value.isPressed;
     }
 
     public void OnLockOn(InputValue value)
     {
+        if(HudInputActive)return;
         if (value.isPressed)
             input.lockOnJustPressed = true;
     }

@@ -30,11 +30,16 @@ public partial class EnemyBrainHost : MonoBehaviour {
  void Awake(){actor=GetComponent<Combatant>();body=GetComponent<enemy>();perception=GetComponent<EnemyPerceptionNav>();motor=GetComponent<EnemyMotor>();brain=new ScriptedCombatBrain();brain.Reset();}
  void OnEnable(){GetComponent<CombatActionRunner>().CollectIntent+=Collect;GetComponent<Combatant>().Result+=ObserveHit;GetComponent<CombatActionRunner>().Changed+=ActionChanged;}
  void OnDisable(){GetComponent<CombatActionRunner>().CollectIntent-=Collect;GetComponent<Combatant>().Result-=ObserveHit;GetComponent<CombatActionRunner>().Changed-=ActionChanged;ClearOwner();}
- public BrainSwitchResult SetMode(EnemyControlMode requested){
+ public BrainSwitchResult SetMode(EnemyControlMode requested)=>SetMode(requested,false);
+ // HUD swaps the decision owner immediately. The shared runner retains attacks,
+ // dodge cooldowns, death and posture breaks; old inference callbacks lose their lease.
+ public BrainSwitchResult SetModeImmediately(EnemyControlMode requested)=>SetMode(requested,true);
+ BrainSwitchResult SetMode(EnemyControlMode requested,bool immediate){
  mode=requested;
- if(requested==EnemyControlMode.ML && !AgentAvailable(out var reason)){FallbackToNormal(reason);return BrainSwitchResult.Unavailable;}
+ if(requested==EnemyControlMode.ML && !AgentAvailable(out var reason)){FallbackToNormal(reason);if(immediate && !DebugOwned)Apply(EnemyControlMode.Normal);return BrainSwitchResult.Unavailable;}
  mlUnavailable=false;FallbackReason="";
- if(actor.Runner.Action!=CombatAction.Free && !actor.Dead || DebugOwned){pending=requested;return BrainSwitchResult.Deferred;}
+ if((!immediate && actor.Runner.Action!=CombatAction.Free && !actor.Dead) || DebugOwned){pending=requested;return BrainSwitchResult.Deferred;}
+ if(immediate)ClearEscape();
  Apply(requested);return BrainSwitchResult.Applied;
  }
  void FallbackToNormal(string reason){
@@ -76,7 +81,8 @@ public partial class EnemyBrainHost : MonoBehaviour {
  if(mlUnavailable && ActiveMode==EnemyControlMode.ML){Intent=default;return;}
  bool visible=perception && perception.CanSeePlayer();
  float distance=visible?perception.PlayerDistance:float.PositiveInfinity;
- bool combat=InCombat?(visible && distance<=7 || actor.Runner.Action!=CombatAction.Free):visible && distance<=5;
+ bool engage=visible && perception.CanEngagePlayer();
+ bool combat=InCombat?(engage && distance<=7 || actor.Runner.Action!=CombatAction.Free):engage && distance<=5;
  if(combat!=InCombat){InCombat=combat;ClearOwner();body?.stateMachine?.TryChangeState(body.stateMachine.currentState,combat?EnemyState.EnemyStateType.combat:EnemyState.EnemyStateType.chase);}
  if(!InCombat)return;
  if(!visible){Intent=default;actor.Runner.SetGuard(false);motor.Face(Vector3.zero);}
